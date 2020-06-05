@@ -1,13 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans&family=Poppins:wght@300;500&display=swap');
+:root {
+  --color-primary: #f7af2b;
+  --color-primary-light-1: #fbda9e;
+  --color-primary-light-2: #f9c86c;
+  --color-primary-dark-1: #956206;
+  --color-primary-dark-2: #432c03;
+  --heading-font: 'Poppins', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
+
+  --color-secondary: #d91e2a;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  /* 1rem=10px */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: var(--body-font);
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Cookie, sans-serif;
+  font-weight: 300%;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+h3 {
+  font-size: 225%;
+}
+.line-break--orange {
+  width: 13rem;
+  height: 0.3px;
+  border-radius: 100px;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+h5 {
+  font-size: 110%;
 }

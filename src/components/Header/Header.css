@@ -1,0 +1,224 @@
+#header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url('../../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  justify-content: space-between;
+}
+.line-break {
+  width: 100%;
+  /* position: absolute; */
+  transform: translateY(-3px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+/*  STYLING HEROBOX */
+.header__hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  height: calc(100% - 8rem);
+}
+
+/* Styling text content with CTA on herobox */
+.header__text {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__heading {
+  align-self: center;
+  /* text-transform: uppercase; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* STyling LOGO text  */
+.header__heading--main {
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+.header__text .header__heading--main {
+  font-size: 100%;
+}
+
+/* .font-big {
+  width: 15rem;
+} */
+.header__heading--sub {
+  font-size: 150%;
+  letter-spacing: 0.1rem;
+  align-self: right;
+}
+.header__heading--sub strong {
+  color: var(--color-primary);
+}
+
+/* SETTING SIZE OF OPENGOUR AND SOCIAL LINKS */
+.header__openhours,
+.header__social {
+  width: 5%;
+  height: 100%;
+  display: flex;
+}
+.header__openhours {
+  justify-content: flex-end;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.header__openhours p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 80%;
+  font-weight: 400;
+  writing-mode: vertical-rl;
+  height: 100%;
+  text-align: center;
+  text-orientation: mixed;
+}
+
+/* ICONS SOCIAL ON HEADER */
+
+.header__social {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social__icon--big {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0.7rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Hover effects on social media SVG */
+
+.social__icon--big svg:hover {
+  fill: red;
+}
+
+.header__logo {
+  width: 100%;
+  height: 30%;
+  background-image: url('../../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.header__cta {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+  transition: transform 0.2s;
+  border-radius: 0.5rem;
+
+  text-transform: uppercase;
+  font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  cursor: pointer;
+  font-family: var(--heading-font);
+}
+.btn--header {
+  width: 20rem;
+  height: 6rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn__cta--main {
+  position: relative;
+  background-color: var(--color-primary);
+  /* -webkit-box-shadow: 0px 0px 5px 0px var(--color-primary-light-2);
+  -moz-box-shadow: 0px 0px 5px 0px var(--color-primary-light-2);
+  box-shadow: 0px 0px 5px 0px var(--color-primary-light-2); */
+  z-index: 0;
+  transition: all 0.2s;
+}
+
+.btn__cta--main:hover {
+  color: var(--color-secondary);
+}
+
+.btn__cta--main::after {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background-color: var(--color-primary);
+  z-index: 2;
+  position: absolute;
+}
+.btn__cta--main:hover::after {
+  animation: expand 0.81s;
+}
+
+.btn__cta--info {
+  border: 1px solid var(--color-secondary);
+}
+
+.header__swipe {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes expand {
+  0% {
+    width: 0%;
+    height: 0%;
+    transform: translateX(2rem);
+    opacity: 0;
+  }
+  10% {
+    width: 2%;
+    top: 0.5rem;
+
+    height: 80%;
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
+}
