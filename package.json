@@ -1,5 +1,5 @@
 {
-  "homepage": "https://fargusmd.github.io/food-court/",
+  "homepage": "https://fargusmd.github.io/food-court",
   "name": "food-court",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,8 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-scroll-to-component": "^1.0.2"
   },
   "scripts": {
     "predeploy": "npm run build",

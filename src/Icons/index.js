@@ -4,7 +4,7 @@ import FoodCourt from './icons/foodcourt.jsx';
 import Tweeter from './icons/tweeter.jsx';
 import VK from './icons/vk';
 import Messenger from './icons/messenger';
-import Calendar from './icons/calendar';
+import Heart from './icons/heart';
 import Instagram from './icons/instagram';
 import Facebook from './icons/facebook';
 import CheckBoxActive from './icons/checkbox-active';
@@ -22,8 +22,8 @@ const Icon = (props) => {
       return <VK {...props} />;
     case 'messenger':
       return <Messenger {...props} />;
-    case 'calendar':
-      return <Calendar {...props} />;
+    case 'heart':
+      return <Heart {...props} />;
     case 'instagram':
       return <Instagram {...props} />;
     case 'facebook':

@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
 
+import scrollToComponent from 'react-scroll-to-component';
 import Navigation from './Navigation/Navigation';
 import './Header.css';
 import Icon from '../../Icons';
+
 const Header = () => {
   return (
     <Fragment>
@@ -24,7 +26,12 @@ const Header = () => {
             </span>
           </h1>
           <div className="header__cta">
-            <span className="btn btn--header btn__cta--main">Quick Book </span>
+            <span
+              onClick={() => scrollToComponent(document.getElementById('book'))}
+              className="btn btn--header btn__cta--main"
+            >
+              Quick Book{' '}
+            </span>
             <span className="btn btn--header btn__cta--info">More details</span>
           </div>
           <div className="header__swipe">Scroll down for more info </div>

@@ -1,0 +1,41 @@
+.slider,
+.slider img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slider img {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+.slider__text {
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  position: relative;
+  transform: translateY(-100%);
+}
+.slider__text ::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(238, 225, 225, 0.2) fixed center;
+  filter: blur(4px);
+}
+
+.slider__text__rating {
+  position: absolute;
+  padding: 1rem;
+  right: 0;
+  top: 0;
+}
+
+.icon-heart :hover {
+  fill: var(--color-primary);
+  cursor: pointer;
+}

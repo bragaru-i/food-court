@@ -6,6 +6,8 @@ import About from './components/About/About';
 import Chef from './components/Chef/Chef';
 import Book from './components/Book/Book';
 import Menu from './components/Menu/Menu';
+import Events from './components/EventsComp/Events';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -26,20 +28,10 @@ function App() {
         <Menu />
       </section>
       <section id="events">
-        events
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <Events />
       </section>
       <section id="blog">
-        last blog articles
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <Blog />
       </section>
       <section id="contact">
         contact us <br />

@@ -10,7 +10,7 @@ const Chef = () => {
   return (
     <div className="chef row">
       <div className="chef__title">
-        <p>Our Chef Team</p>
+        <h2>Our Chef Team</h2>
       </div>
       <div className="chef__content">
         <div className="chef__content__photo">

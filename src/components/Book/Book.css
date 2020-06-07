@@ -15,7 +15,7 @@
   border-radius: 5px;
   background-image: url('../../img/book-time.jpg');
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
