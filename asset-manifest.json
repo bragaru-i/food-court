@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/food-court/static/css/main.df6a72fe.chunk.css",
-    "main.js": "/food-court/static/js/main.6bb9e830.chunk.js",
-    "main.js.map": "/food-court/static/js/main.6bb9e830.chunk.js.map",
+    "main.css": "/food-court/static/css/main.704a227d.chunk.css",
+    "main.js": "/food-court/static/js/main.a26a1b40.chunk.js",
+    "main.js.map": "/food-court/static/js/main.a26a1b40.chunk.js.map",
     "runtime-main.js": "/food-court/static/js/runtime-main.ce5321ef.js",
     "runtime-main.js.map": "/food-court/static/js/runtime-main.ce5321ef.js.map",
-    "static/js/2.8bb466ee.chunk.js": "/food-court/static/js/2.8bb466ee.chunk.js",
-    "static/js/2.8bb466ee.chunk.js.map": "/food-court/static/js/2.8bb466ee.chunk.js.map",
+    "static/js/2.99a40e55.chunk.js": "/food-court/static/js/2.99a40e55.chunk.js",
+    "static/js/2.99a40e55.chunk.js.map": "/food-court/static/js/2.99a40e55.chunk.js.map",
     "index.html": "/food-court/index.html",
-    "precache-manifest.faf9ca3228c01137ce167329f28c7b9e.js": "/food-court/precache-manifest.faf9ca3228c01137ce167329f28c7b9e.js",
+    "precache-manifest.6f125e12edc9ed33b04ed11cdaae6063.js": "/food-court/precache-manifest.6f125e12edc9ed33b04ed11cdaae6063.js",
     "service-worker.js": "/food-court/service-worker.js",
-    "static/css/main.df6a72fe.chunk.css.map": "/food-court/static/css/main.df6a72fe.chunk.css.map",
-    "static/js/2.8bb466ee.chunk.js.LICENSE.txt": "/food-court/static/js/2.8bb466ee.chunk.js.LICENSE.txt",
+    "static/css/main.704a227d.chunk.css.map": "/food-court/static/css/main.704a227d.chunk.css.map",
+    "static/js/2.99a40e55.chunk.js.LICENSE.txt": "/food-court/static/js/2.99a40e55.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/food-court/static/media/about.721cee7d.jpg",
     "static/media/assorted-salads.jpg": "/food-court/static/media/assorted-salads.57e37509.jpg",
     "static/media/avocado-cooked.jpg": "/food-court/static/media/avocado-cooked.0ffdf986.jpg",
@@ -22,15 +22,18 @@
     "static/media/chocolate.jpg": "/food-court/static/media/chocolate.623a038d.jpg",
     "static/media/dessert.jpg": "/food-court/static/media/dessert.103c94f4.jpg",
     "static/media/food-dinner.jpg": "/food-court/static/media/food-dinner.0082b7bb.jpg",
+    "static/media/Events.css": "/food-court/static/media/hero.32aeb10a.jpg",
     "static/media/Header.css": "/food-court/static/media/logo.dc55914e.png",
+    "static/media/party.jpg": "/food-court/static/media/party.ef69fe40.jpg",
     "static/media/pasta.jpg": "/food-court/static/media/pasta.2cf7b3ff.jpg",
     "static/media/plate.jpg": "/food-court/static/media/plate.d6653c10.jpg",
-    "static/media/shrimps-salad.jpg": "/food-court/static/media/shrimps-salad.652067c9.jpg"
+    "static/media/shrimps-salad.jpg": "/food-court/static/media/shrimps-salad.652067c9.jpg",
+    "static/media/wedding.jpg": "/food-court/static/media/wedding.7d9f7a22.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce5321ef.js",
-    "static/js/2.8bb466ee.chunk.js",
-    "static/css/main.df6a72fe.chunk.css",
-    "static/js/main.6bb9e830.chunk.js"
+    "static/js/2.99a40e55.chunk.js",
+    "static/css/main.704a227d.chunk.css",
+    "static/js/main.a26a1b40.chunk.js"
   ]
 }
