@@ -10,6 +10,8 @@ import Facebook from './icons/facebook';
 import CheckBoxActive from './icons/checkbox-active';
 import Checkbox from './icons/checkbox';
 import MenuToggler from './icons/menu-toggler';
+import ScrollUp from './icons/scroll-up';
+import ScrollDown from './icons/scroll-down';
 const Icon = (props) => {
   switch (props.name) {
     case 'menu-toggler':
@@ -32,6 +34,10 @@ const Icon = (props) => {
       return <CheckBoxActive {...props} />;
     case 'checkbox':
       return <Checkbox {...props} />;
+    case 'scroll-up':
+      return <ScrollUp {...props} />;
+    case 'scroll-down':
+      return <ScrollDown {...props} />;
     default:
       return;
   }

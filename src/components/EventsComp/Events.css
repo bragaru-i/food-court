@@ -60,7 +60,7 @@
   z-index: 999;
   font-size: 300%;
   backdrop-filter: blur(8px);
-  border-radius: 0.3rem;
   padding: 0 2rem;
+  border-radius: 0.3rem;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
 }

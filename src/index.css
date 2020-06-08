@@ -56,6 +56,9 @@ h3 {
   border-radius: 100px;
   border-bottom: 3px solid var(--color-primary);
 }
+h4 {
+  font-size: 150%;
+}
 
 h5 {
   font-size: 110%;
