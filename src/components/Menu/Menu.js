@@ -32,6 +32,8 @@ const Menu = ({ items = [] }) => {
   return (
     <div className="menu row">
       <h2>Our Menu</h2>
+      <div className="line-break--orange"></div>
+
       <div className="menu__caroussel">
         <div className="menu__image">
           <Slide img={images[current]} name="Food Name" description="Description" />

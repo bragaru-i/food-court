@@ -12,6 +12,7 @@ const Chef = () => {
       <div className="chef__title">
         <h2>Our Chef Team</h2>
       </div>
+      <div className="line-break--orange"></div>
       <div className="chef__content">
         <div className="chef__content__photo">
           <div className="chef__image">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 
 import './Blog.css';
 import Icon from '../../Icons';
@@ -23,6 +23,8 @@ const Blog = () => {
   return (
     <div className="blog row">
       <h2>Our Blog and Articles</h2>
+      <div className="line-break--orange"></div>
+
       <div className="blog__container">
         <button
           id="scroll-up"
@@ -37,7 +39,7 @@ const Blog = () => {
         <div className="col-1-of-2 blog-detailed">
           <img src={articles[active].img} alt={articles[active].title}></img>
           <h4>
-            {articles[active].title} <i> by {articles[active].author}</i>
+            {articles[active].title} by {articles[active].author}
           </h4>
           <p> {articles[active].description}</p>
         </div>

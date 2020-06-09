@@ -63,3 +63,13 @@ h4 {
 h5 {
   font-size: 110%;
 }
+
+#footer {
+  margin: 0;
+  height: 10rem;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

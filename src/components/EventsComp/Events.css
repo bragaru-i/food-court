@@ -4,14 +4,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .events {
   height: 96rem;
   display: flex;
+  margin: 1.2rem 0;
 }
 .col-1-of-2 {
   width: 50%;
@@ -51,7 +55,7 @@
 
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
 }
-.events__class {
+/* .events__class {
   position: absolute;
   top: 30%;
   left: calc (50% - 26rem);
@@ -63,4 +67,4 @@
   padding: 0 2rem;
   border-radius: 0.3rem;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-}
+} */

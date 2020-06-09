@@ -8,6 +8,7 @@ import Book from './components/Book/Book';
 import Menu from './components/Menu/Menu';
 import Events from './components/EventsComp/Events';
 import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -33,7 +34,13 @@ function App() {
       <section id="blog">
         <Blog />
       </section>
-      <section id="contact"></section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <section id="footer">
+        Copyright by fargusMD. mailto:{' '}
+        <a href="mailto: bragaruion@gmail.com"> bragaruion@gmail.com </a>
+      </section>
     </Fragment>
   );
 }

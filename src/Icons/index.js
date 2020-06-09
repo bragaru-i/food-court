@@ -12,8 +12,17 @@ import Checkbox from './icons/checkbox';
 import MenuToggler from './icons/menu-toggler';
 import ScrollUp from './icons/scroll-up';
 import ScrollDown from './icons/scroll-down';
+import Pin from './icons/pin';
+import Phone from './icons/phone';
+import Mail from './icons/mail';
 const Icon = (props) => {
   switch (props.name) {
+    case 'pin':
+      return <Pin {...props} />;
+    case 'mail':
+      return <Mail {...props} />;
+    case 'phone':
+      return <Phone {...props} />;
     case 'menu-toggler':
       return <MenuToggler {...props} />;
     case 'foodcourt':

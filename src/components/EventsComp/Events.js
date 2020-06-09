@@ -6,9 +6,9 @@ import './Events.css';
 const Events = () => {
   return (
     <Fragment>
-      <div className="events__class">
-        <p>YOUR PARTY HOST</p>
-      </div>
+      <h2>Your Party Host</h2>
+      <div className="line-break--orange"></div>
+
       <div className="events row">
         <div className=" col-1-of-2  events__first">
           <img src={partyJPG} alt="Book A PARTY"></img>
