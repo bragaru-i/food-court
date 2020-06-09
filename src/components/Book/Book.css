@@ -2,6 +2,7 @@
   height: 48rem;
   display: flex;
   color: #000;
+  justify-content: space-between;
 }
 
 .book__photo {

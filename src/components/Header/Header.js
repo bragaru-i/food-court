@@ -20,7 +20,10 @@ const Header = () => {
         <div className="header__text">
           <div className="header__logo"></div>
           <h1 className="header__heading">
-            <span className="header__heading--main">Food Court</span>
+            <span className="header__heading--main">
+              <span style={{ color: ' var(--color-primary)' }}>Food</span> Court
+            </span>
+            <div style={{ alignSelf: 'center' }} className="line-break--orange"></div>
             <span className="header__heading--sub">
               Where hospitability meets <strong> taste </strong>
             </span>
