@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans&family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;500&display=swap');
 :root {
   --color-primary: #f7af2b;
   --color-primary-light-1: #fbda9e;
@@ -32,8 +32,9 @@ body {
 }
 
 h1 {
-  font-family: Cookie, sans-serif;
-  font-weight: 300%;
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-weight: 400%;
 }
 h2,
 h3,
