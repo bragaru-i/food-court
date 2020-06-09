@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "060418f7a1619c8e7a58d8829a565c05",
+    "revision": "200cec4977cbe7176ffeab0159ef8565",
     "url": "/food-court/index.html"
   },
   {
-    "revision": "6e4c262786ce2b9b268f",
-    "url": "/food-court/static/css/main.704a227d.chunk.css"
+    "revision": "882e8e311e2552231a9e",
+    "url": "/food-court/static/css/main.15e59c84.chunk.css"
   },
   {
     "revision": "aeebf9fc33909f56c165",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/food-court/static/js/2.99a40e55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e4c262786ce2b9b268f",
-    "url": "/food-court/static/js/main.a26a1b40.chunk.js"
+    "revision": "882e8e311e2552231a9e",
+    "url": "/food-court/static/js/main.aeae8485.chunk.js"
   },
   {
     "revision": "fd0818d0e53170a53447",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "623a038df5c1aefeaca7e1ba58c5a7a9",
     "url": "/food-court/static/media/chocolate.623a038d.jpg"
+  },
+  {
+    "revision": "a496cf390ba93bdd278a041636ab22e7",
+    "url": "/food-court/static/media/contact.a496cf39.png"
   },
   {
     "revision": "103c94f4b9d408cf62a9141d8330de03",

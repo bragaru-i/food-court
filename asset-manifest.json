@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/food-court/static/css/main.704a227d.chunk.css",
-    "main.js": "/food-court/static/js/main.a26a1b40.chunk.js",
-    "main.js.map": "/food-court/static/js/main.a26a1b40.chunk.js.map",
+    "main.css": "/food-court/static/css/main.15e59c84.chunk.css",
+    "main.js": "/food-court/static/js/main.aeae8485.chunk.js",
+    "main.js.map": "/food-court/static/js/main.aeae8485.chunk.js.map",
     "runtime-main.js": "/food-court/static/js/runtime-main.ce5321ef.js",
     "runtime-main.js.map": "/food-court/static/js/runtime-main.ce5321ef.js.map",
     "static/js/2.99a40e55.chunk.js": "/food-court/static/js/2.99a40e55.chunk.js",
     "static/js/2.99a40e55.chunk.js.map": "/food-court/static/js/2.99a40e55.chunk.js.map",
     "index.html": "/food-court/index.html",
-    "precache-manifest.6f125e12edc9ed33b04ed11cdaae6063.js": "/food-court/precache-manifest.6f125e12edc9ed33b04ed11cdaae6063.js",
+    "precache-manifest.c0924446e7dcac01436bb668e5a9a058.js": "/food-court/precache-manifest.c0924446e7dcac01436bb668e5a9a058.js",
     "service-worker.js": "/food-court/service-worker.js",
-    "static/css/main.704a227d.chunk.css.map": "/food-court/static/css/main.704a227d.chunk.css.map",
+    "static/css/main.15e59c84.chunk.css.map": "/food-court/static/css/main.15e59c84.chunk.css.map",
     "static/js/2.99a40e55.chunk.js.LICENSE.txt": "/food-court/static/js/2.99a40e55.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/food-court/static/media/about.721cee7d.jpg",
     "static/media/assorted-salads.jpg": "/food-court/static/media/assorted-salads.57e37509.jpg",
@@ -20,6 +20,7 @@
     "static/media/chef-1.jpg": "/food-court/static/media/chef-1.6baf8cc7.jpg",
     "static/media/Chef.css": "/food-court/static/media/chef-hero.37f0a96c.jpg",
     "static/media/chocolate.jpg": "/food-court/static/media/chocolate.623a038d.jpg",
+    "static/media/Contact.css": "/food-court/static/media/contact.a496cf39.png",
     "static/media/dessert.jpg": "/food-court/static/media/dessert.103c94f4.jpg",
     "static/media/food-dinner.jpg": "/food-court/static/media/food-dinner.0082b7bb.jpg",
     "static/media/Events.css": "/food-court/static/media/hero.32aeb10a.jpg",
@@ -33,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.ce5321ef.js",
     "static/js/2.99a40e55.chunk.js",
-    "static/css/main.704a227d.chunk.css",
-    "static/js/main.a26a1b40.chunk.js"
+    "static/css/main.15e59c84.chunk.css",
+    "static/js/main.aeae8485.chunk.js"
   ]
 }
