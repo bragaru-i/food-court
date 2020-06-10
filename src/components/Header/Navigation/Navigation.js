@@ -1,10 +1,12 @@
-import React, { useEffect, Fragment } from 'react';
+import React, { useEffect, Fragment, useState } from 'react';
 
 import './Navigation.css';
-
+import Icon from '../../../Icons';
 import scrollToComponent from 'react-scroll-to-component';
+import logo from '../../../img/logo.png';
 
 const Navigation = () => {
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     let nav = document.getElementById('nav-bar');
     let header = document.getElementById('header');
@@ -27,7 +29,19 @@ const Navigation = () => {
   return (
     <Fragment>
       <nav id="nav-bar" className="navbar">
-        <ul className="navbar__items">
+        <div className="burger-toggler">
+          <div className="navbar__logo"></div>
+          <span style={{ paddingLeft: '1.2rem' }}>Food Court</span>
+          <span className="button-toggler" onClick={() => setOpen(!open)}>
+            <Icon
+              className="menu-toggler"
+              name="menu-toggler"
+              fill="white"
+              width="3rem"
+            />
+          </span>
+        </div>
+        <ul className={!open ? 'navbar__items' : 'navbar__items open'}>
           <li className="navbar__item">
             <span onClick={() => scrollToComponent(document.getElementById('header'))}>
               Home

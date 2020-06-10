@@ -1,11 +1,16 @@
 .navbar {
   height: 8rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar__items {
   display: flex;
   flex-direction: row;
   height: 100%;
+  width: 100%;
   list-style: none;
   justify-content: space-between;
   align-items: center;
@@ -74,4 +79,64 @@
 .sticky .navbar__item:hover {
   color: var(--color-primary-light-2);
   transform: translateY(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .burger-toggler {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .navbar__items {
+    display: none;
+  }
+  .open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    animation: menuAppear 1s;
+  }
+  .navbar__item {
+    padding-bottom: 0.5rem;
+    background: rgba(0, 0, 0, 0.83);
+  }
+  .sticky .open {
+    top: 6rem;
+  }
+  .navbar__logo {
+    height: calc(100% - 1rem);
+    width: 6rem;
+    background-image: url('../../../img/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .button-toggler {
+    position: absolute;
+    right: 0;
+  }
+  .menu-toggler {
+    border: 1px grey solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+  }
+  .sticky .menu-toggler {
+    margin-right: 2rem;
+    align-self: center;
+    fill: red;
+  }
+}
+
+@keyframes menuAppear {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
