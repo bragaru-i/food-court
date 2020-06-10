@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/food-court/static/css/main.15e59c84.chunk.css",
-    "main.js": "/food-court/static/js/main.aeae8485.chunk.js",
-    "main.js.map": "/food-court/static/js/main.aeae8485.chunk.js.map",
+    "main.css": "/food-court/static/css/main.6480dd19.chunk.css",
+    "main.js": "/food-court/static/js/main.73ace21b.chunk.js",
+    "main.js.map": "/food-court/static/js/main.73ace21b.chunk.js.map",
     "runtime-main.js": "/food-court/static/js/runtime-main.ce5321ef.js",
     "runtime-main.js.map": "/food-court/static/js/runtime-main.ce5321ef.js.map",
-    "static/js/2.99a40e55.chunk.js": "/food-court/static/js/2.99a40e55.chunk.js",
-    "static/js/2.99a40e55.chunk.js.map": "/food-court/static/js/2.99a40e55.chunk.js.map",
+    "static/js/2.f90c2c7d.chunk.js": "/food-court/static/js/2.f90c2c7d.chunk.js",
+    "static/js/2.f90c2c7d.chunk.js.map": "/food-court/static/js/2.f90c2c7d.chunk.js.map",
     "index.html": "/food-court/index.html",
-    "precache-manifest.c0924446e7dcac01436bb668e5a9a058.js": "/food-court/precache-manifest.c0924446e7dcac01436bb668e5a9a058.js",
+    "precache-manifest.f89e49efbaac2a2f42fd1e5235528a96.js": "/food-court/precache-manifest.f89e49efbaac2a2f42fd1e5235528a96.js",
     "service-worker.js": "/food-court/service-worker.js",
-    "static/css/main.15e59c84.chunk.css.map": "/food-court/static/css/main.15e59c84.chunk.css.map",
-    "static/js/2.99a40e55.chunk.js.LICENSE.txt": "/food-court/static/js/2.99a40e55.chunk.js.LICENSE.txt",
+    "static/css/main.6480dd19.chunk.css.map": "/food-court/static/css/main.6480dd19.chunk.css.map",
+    "static/js/2.f90c2c7d.chunk.js.LICENSE.txt": "/food-court/static/js/2.f90c2c7d.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/food-court/static/media/about.721cee7d.jpg",
     "static/media/assorted-salads.jpg": "/food-court/static/media/assorted-salads.57e37509.jpg",
     "static/media/avocado-cooked.jpg": "/food-court/static/media/avocado-cooked.0ffdf986.jpg",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ce5321ef.js",
-    "static/js/2.99a40e55.chunk.js",
-    "static/css/main.15e59c84.chunk.css",
-    "static/js/main.aeae8485.chunk.js"
+    "static/js/2.f90c2c7d.chunk.js",
+    "static/css/main.6480dd19.chunk.css",
+    "static/js/main.73ace21b.chunk.js"
   ]
 }
