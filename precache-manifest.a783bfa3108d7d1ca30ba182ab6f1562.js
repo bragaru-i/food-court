@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f6dadd0e70b1629f39c262cbee5c294",
+    "revision": "39d26222d4e372a9376c090f94b69a3e",
     "url": "/food-court/index.html"
   },
   {
-    "revision": "33c099ac56e19f7abf49",
-    "url": "/food-court/static/css/main.6480dd19.chunk.css"
+    "revision": "655b87e4dbb71113369c",
+    "url": "/food-court/static/css/main.2ea49463.chunk.css"
   },
   {
     "revision": "d21f4e2bde63c378056e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/food-court/static/js/2.f90c2c7d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33c099ac56e19f7abf49",
-    "url": "/food-court/static/js/main.73ace21b.chunk.js"
+    "revision": "655b87e4dbb71113369c",
+    "url": "/food-court/static/js/main.2b11fb62.chunk.js"
   },
   {
     "revision": "fd0818d0e53170a53447",

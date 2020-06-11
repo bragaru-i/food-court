@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/food-court/static/css/main.6480dd19.chunk.css",
-    "main.js": "/food-court/static/js/main.73ace21b.chunk.js",
-    "main.js.map": "/food-court/static/js/main.73ace21b.chunk.js.map",
+    "main.css": "/food-court/static/css/main.2ea49463.chunk.css",
+    "main.js": "/food-court/static/js/main.2b11fb62.chunk.js",
+    "main.js.map": "/food-court/static/js/main.2b11fb62.chunk.js.map",
     "runtime-main.js": "/food-court/static/js/runtime-main.ce5321ef.js",
     "runtime-main.js.map": "/food-court/static/js/runtime-main.ce5321ef.js.map",
     "static/js/2.f90c2c7d.chunk.js": "/food-court/static/js/2.f90c2c7d.chunk.js",
     "static/js/2.f90c2c7d.chunk.js.map": "/food-court/static/js/2.f90c2c7d.chunk.js.map",
     "index.html": "/food-court/index.html",
-    "precache-manifest.f89e49efbaac2a2f42fd1e5235528a96.js": "/food-court/precache-manifest.f89e49efbaac2a2f42fd1e5235528a96.js",
+    "precache-manifest.a783bfa3108d7d1ca30ba182ab6f1562.js": "/food-court/precache-manifest.a783bfa3108d7d1ca30ba182ab6f1562.js",
     "service-worker.js": "/food-court/service-worker.js",
-    "static/css/main.6480dd19.chunk.css.map": "/food-court/static/css/main.6480dd19.chunk.css.map",
+    "static/css/main.2ea49463.chunk.css.map": "/food-court/static/css/main.2ea49463.chunk.css.map",
     "static/js/2.f90c2c7d.chunk.js.LICENSE.txt": "/food-court/static/js/2.f90c2c7d.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/food-court/static/media/about.721cee7d.jpg",
     "static/media/assorted-salads.jpg": "/food-court/static/media/assorted-salads.57e37509.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.ce5321ef.js",
     "static/js/2.f90c2c7d.chunk.js",
-    "static/css/main.6480dd19.chunk.css",
-    "static/js/main.73ace21b.chunk.js"
+    "static/css/main.2ea49463.chunk.css",
+    "static/js/main.2b11fb62.chunk.js"
   ]
 }
