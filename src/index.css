@@ -31,12 +31,6 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: var(--heading-font);
-  font-weight: 300;
-  font-weight: 400%;
-  animation: fadeDown 1s;
-}
 h2,
 h3,
 h4,

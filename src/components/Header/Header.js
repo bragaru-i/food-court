@@ -45,7 +45,7 @@ const Header = () => {
           </div>
 
           <div className="social__icon--big">
-            <Icon name="facebook" fill="#fff" width="28px" />
+            <Icon name="facebook" fill="#fff" width="28px" className="fb" />
           </div>
           <div className="social__icon--big">
             <Icon name="tweeter" fill="#fff" width="28px" />

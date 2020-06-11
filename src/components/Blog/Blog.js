@@ -26,16 +26,6 @@ const Blog = () => {
       <div className="line-break--orange"></div>
 
       <div className="blog__container">
-        <button
-          id="scroll-up"
-          className="blog__container__btns scroll-up"
-          onClick={scrollDown}
-        >
-          <Icon name="scroll-down" width="1.5rem" fill="f0f0f0" />
-        </button>
-        <button className="blog__container__btns scroll-down" onClick={scrollUp}>
-          <Icon name="scroll-up" width="1.5rem" fill="f0f0f0" />
-        </button>
         <div className="col-1-of-2 blog-detailed">
           <img src={articles[active].img} alt={articles[active].title}></img>
           <h4>
@@ -43,7 +33,17 @@ const Blog = () => {
           </h4>
           <p> {articles[active].description}</p>
         </div>
-        <div className="col-1-of-2">
+        <div className="col-1-of-2 scroll-items">
+          <button
+            id="scroll-up"
+            className="blog__container__btns scroll-up"
+            onClick={scrollDown}
+          >
+            <Icon name="scroll-down" width="1.5rem" fill="f0f0f0" />
+          </button>
+          <button className="blog__container__btns scroll-down" onClick={scrollUp}>
+            <Icon name="scroll-up" width="1.5rem" fill="f0f0f0" />
+          </button>
           {blogArr.map((item, i) => (
             <div
               onClick={() => setActive(i)}

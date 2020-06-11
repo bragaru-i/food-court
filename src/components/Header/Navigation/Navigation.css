@@ -6,6 +6,9 @@
   justify-content: space-between;
 }
 
+.burger-toggler {
+  display: none;
+}
 .navbar__items {
   display: flex;
   flex-direction: row;
@@ -89,6 +92,7 @@
     height: 100%;
     align-items: center;
   }
+
   .navbar__items {
     display: none;
   }

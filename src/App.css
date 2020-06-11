@@ -10,3 +10,13 @@ section {
   justify-content: center;
   margin-top: 8rem;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+@media only screen and (max-width: 500px) {
+  a {
+    font-size: 80%;
+  }
+}

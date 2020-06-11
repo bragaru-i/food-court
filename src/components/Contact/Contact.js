@@ -19,7 +19,9 @@ const Contact = () => {
               <label>
                 <input type="email" placeholder="Email"></input>
               </label>
-              <input type="phone" placeholder="Phone"></input>
+              <label>
+                <input type="phone" placeholder="Phone"></input>
+              </label>
             </div>
             <div className="contact__textarea">
               <textarea placeholder="Leave a message for us"></textarea>

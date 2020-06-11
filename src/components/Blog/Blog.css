@@ -14,7 +14,10 @@
   height: 50rem;
   overflow: hidden;
 }
-
+.scroll-items {
+  position: relative;
+  margin: 0.5rem;
+}
 .blog-card {
   cursor: pointer;
   width: 100%;
@@ -26,10 +29,10 @@
 
 .blog__container__btns {
   position: absolute;
-  left: 50%;
+  left: 0;
   height: 4rem;
   z-index: 1;
-  width: 50%;
+  width: 100%;
   outline: 0;
   border: 0;
   border-radius: 0.2rem;
@@ -62,4 +65,28 @@
 
 .blog-card:nth-child(even) {
   background-color: var(--color-primary-light-1);
+}
+
+@media only screen and (max-width: 700px) {
+  .blog__container {
+    height: auto;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+  }
+  .blog-detailed,
+  .scroll-items {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+  }
+  .blog-detailed {
+    overflow: hidden;
+    z-index: 3;
+    background: #fff;
+  }
+  .scroll-items {
+    height: 50rem;
+    overflow: hidden;
+  }
 }

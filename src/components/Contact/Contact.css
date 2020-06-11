@@ -65,3 +65,27 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media only screen and (max-width: 700px) {
+  .contact__inputs {
+    flex-direction: column;
+  }
+  .contact__inputs label {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .contact__textarea {
+    margin: 0;
+  }
+  .contact__footer-block {
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact__footer {
+    flex-direction: column;
+  }
+  .contact__footer .col-1-of-2 {
+    width: 100%;
+  }
+}

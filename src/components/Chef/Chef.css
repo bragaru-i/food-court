@@ -59,3 +59,21 @@
 .chef__actions svg:hover {
   width: 1.6rem;
 }
+@media only screen and (max-width: 500px) {
+  .chef__title {
+    text-align: center;
+    line-height: 1;
+  }
+  .chef__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chef__content__photo {
+    height: 30rem;
+  }
+  .chef__content__text {
+    width: 100%;
+  }
+}

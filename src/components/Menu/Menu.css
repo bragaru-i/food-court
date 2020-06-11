@@ -83,3 +83,16 @@
   transition: all 0.3s;
   opacity: 0.41;
 }
+
+@media only screen and (max-width: 700px) {
+  .menu__caroussel {
+    flex-direction: column;
+  }
+  .menu__image {
+    width: 100%;
+  }
+  .menu__controller {
+    width: 100%;
+    margin-left: 0;
+  }
+}

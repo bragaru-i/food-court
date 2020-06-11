@@ -32,3 +32,19 @@
   font-size: 115%;
   text-align: justify;
 }
+
+@media only screen and (max-width: 1090px) {
+  .h2__subheading--main,
+  .h2__subheading--second {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about__image {
+    display: none;
+  }
+  .about__text {
+    width: 100%;
+  }
+}

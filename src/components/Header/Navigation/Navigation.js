@@ -58,8 +58,11 @@ const Navigation = () => {
             </span>
           </li>
           <li className="navbar__item">
-            <span onClick={() => scrollToComponent(document.getElementById('book'))}>
-              Book a Table
+            <span
+              style={{ color: 'var(--color-primary)' }}
+              onClick={() => scrollToComponent(document.getElementById('book'))}
+            >
+              <strong> BOOKING </strong>
             </span>
           </li>
 
@@ -75,7 +78,7 @@ const Navigation = () => {
           </li>
           <li className="navbar__item">
             <span onClick={() => scrollToComponent(document.getElementById('blog'))}>
-              Food BLOG
+              Blog
             </span>{' '}
           </li>
           <li className="navbar__item">
