@@ -1,9 +1,10 @@
-import React, { useEffect, Fragment, useState } from 'react';
+import React, { useEffect, Fragment, useState, useRef } from 'react';
 
 import './Navigation.css';
 import Icon from '../../../Icons';
 import scrollToComponent from 'react-scroll-to-component';
-import logo from '../../../img/logo.png';
+
+import useClickOutside from '../../../Hooks/useClickOutside';
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
@@ -25,7 +26,17 @@ const Navigation = () => {
       window.removeEventListener('scroll', scrollCallBack);
     };
   }, []);
-
+  let node = useRef();
+  useClickOutside(
+    node,
+    open,
+    () => {
+      setOpen(false);
+    },
+    () => {
+      open && 0 && setInterval(() => setOpen(false), 1200);
+    }
+  );
   return (
     <Fragment>
       <nav id="nav-bar" className="navbar">
@@ -41,7 +52,7 @@ const Navigation = () => {
             />
           </span>
         </div>
-        <ul className={!open ? 'navbar__items' : 'navbar__items open'}>
+        <ul ref={node} className={!open ? 'navbar__items' : 'navbar__items open'}>
           <li className="navbar__item">
             <span onClick={() => scrollToComponent(document.getElementById('header'))}>
               Home

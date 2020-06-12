@@ -38,7 +38,7 @@ function App() {
         <Contact />
       </section>
       <section id="footer">
-        <a href="mailto: bragaruion@gmail.com">Copyright bragaruion@gmail.com </a>
+        <a href="mailto: bragaruion@gmail.com">Copyright by bragaruion@gmail.com </a>
       </section>
     </Fragment>
   );

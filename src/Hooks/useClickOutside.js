@@ -10,7 +10,7 @@ const useClickOutside = (ref, open, callback, callback2) => {
   };
 
   useEffect(() => {
-    document.addEventListener('mouseEnter', handleClick);
+    document.addEventListener('click', handleClick);
 
     return () => {
       document.removeEventListener('click', handleClick);
